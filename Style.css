@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  
+.header {
+    padding: 60px;
+    text-align: left;
+    background: #6fe7ff;
+    color: #007bb5;
+  }
+.header {
+    background-image: url(download.png);
+  }
+  
+.header {
+    border: 5px solid #007bb5;
+  }  
+    
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .side {
+    flex: 30%;
+    background-color: #f1f1f19d;
+    padding: 20px;
+  }
+  .kolom1 {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px
+  }
+
+  .kolom2 {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px
+  }
+  .main {
+    flex: 70%;
+    background-color: #f1f1f19d;
+    padding: 20px;
+  }
+  .geitenboerderij {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px
+  }
+
+  .Amsterdamsebos {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .Bloesempark {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+  }
+  .Amsteltuin {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+  }
+  .claramaria {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+  }
+  .elsenhove {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+  }
+  .Schouwburg {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+  }
+  .cobra {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+  }
+  .westeramstel {
+    border: 3px solid rgb(119, 118, 118);
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+  }
+  .main img {
+    width: 150px;
+    height: 95px;
+    float: right;
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #007bb5;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+  } 
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+   .fa-facebook {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
